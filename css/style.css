@@ -4,7 +4,7 @@
   --body-bg: #ffffff;
   --color-heading: #111111;
   --light: #F4FCFA;
-  --border: #CDEEE6;
+  --border: #D2EFE8;
   --primary: #97C2B8;
   --secondary: #F9AB51;
   --font-text: 'Roboto', sans-serif;
@@ -25,10 +25,38 @@ input[type="text"],
 input[type="email"],
 input[type="url"],
 input[type="password"],
-nput[type="search"],
+input[type="search"],
 textarea {
-  border: 1px solid var(--border);
   outline: 0;
+  border: 0;
+  -webkit-box-shadow: 0 0 4px 1px var(--border);
+          box-shadow: 0 0 4px 1px var(--border);
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+textarea:focus {
+  -webkit-box-shadow: 0 0 4px 1px var(--primary);
+          box-shadow: 0 0 4px 1px var(--primary);
+}
+
+/* Button */
+.button {
+  background-color: var(--light);
+  border: 2px solid var(--primary);
+  border-radius: 6px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background-color: var(--border);
+  color: var(--color-heading);
 }
 
 .header-top {
@@ -156,6 +184,14 @@ textarea {
 
 .footer li {
   border-bottom: 1px solid var(--light);
+}
+
+.footer a {
+  color: var(--color-text);
+}
+
+.footer a:hover {
+  color: var(--primary);
 }
 
 .block-title {
@@ -334,19 +370,6 @@ textarea {
 .bg-light,
 .featured {
   background-color: var(--light);
-}
-
-/* Button */
-.button {
-  border: 2px solid var(--primary);
-  border-radius: 6px;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-
-.button:hover {
-  background-color: var(--border);
-  color: var(--color-heading);
 }
 
 /* Box */

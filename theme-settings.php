@@ -20,7 +20,7 @@ function xara_form_system_theme_settings_alter(&$form, &$form_state) {
   $form['general'] = [
     '#type'  => 'details',
     '#title' => t('General'),
-    '#description' => t('<h3>Thank you for using XARA Theme</h3>xara is a free Drupal 8, 9 theme designed and developed by <a href="https://www.drupar.com" target="_blank">Drupar.com</a>'),
+    '#description' => t('<h3>Thank you for using XARA Theme</h3>XARA is a free Drupal 8, 9 theme designed and developed by <a href="https://www.drupar.com" target="_blank">Drupar.com</a>'),
     '#group' => 'xara',
   ];
   $form['layout'] = [
@@ -1611,7 +1611,7 @@ function xara_form_system_theme_settings_alter(&$form, &$form_state) {
   ];
   $form['components']['scrolltotop']['scrolltotop_shape_section']['scrolltotop_icon_radius'] = [
     '#type'   => 'textfield',
-    '#title'  => t('Background Border Radius'),
+    '#title'  => t('Border Radius'),
     '#default_value' => theme_get_setting('scrolltotop_icon_radius'),
     '#description' => t('Default value is 50%.<br />You can use <strong>px</strong> (example 10px) or <strong>percentage</strong> (example 50%) unit.<p><hr /></p>'),
   ];

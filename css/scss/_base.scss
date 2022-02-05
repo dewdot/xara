@@ -3,10 +3,8 @@
 :root {
   --body-bg: #ffffff;
   --color-heading: #111111;
-
   --light: #F4FCFA;
-  // --border: #E3F4F0;
-  --border: #CDEEE6;
+  --border: #D2EFE8;
   --primary: #97C2B8;
   --secondary: #F9AB51;
 
@@ -29,9 +27,29 @@ input[type="text"],
 input[type="email"],
 input[type="url"],
 input[type="password"],
-nput[type="search"],
+input[type="search"],
 textarea {
-  border: 1px solid var(--border);
   outline: 0;
-  // box-shadow: 0 0 2px 1px var(--border);
+  border: 0;
+  box-shadow: 0 0 4px 1px var(--border);
+  transition: all 0.3s linear;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+textarea:focus {
+  box-shadow: 0 0 4px 1px var(--primary);
+}
+/* Button */
+.button {
+  background-color: var(--light);
+  border: 2px solid var(--primary);
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+.button:hover {
+  background-color: var(--border);
+  color: var(--color-heading);
 }
