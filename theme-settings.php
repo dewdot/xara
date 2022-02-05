@@ -225,7 +225,7 @@ function xara_form_system_theme_settings_alter(&$form, &$form_state) {
   $form['header']['sticky_header'] = [
     '#type'        => 'details',
     '#title'       => t('Sticky Header'),
-    '#description'   => t('This feature is available in the premium version of this theme. <a href="https://www.drupar.com/theme/xarapro" target="_blank">Buy xaraPro for $29 only.</a>'),
+    '#description'   => t('This feature is available in the premium version of this theme. <a href="https://www.drupar.com/theme/xarapro" target="_blank">Buy XaraPro for $29 only.</a>'),
     '#group' => 'header_tab',
   ];
   // Header -> Header Presets
@@ -410,7 +410,7 @@ function xara_form_system_theme_settings_alter(&$form, &$form_state) {
   $form['sidebar']['animated_sidebar'] = [
     '#type'        => 'details',
     '#title'       => t('Animated Sliding Sidebar'),
-    '#description'   => t('This feature is available in the premium version of this theme. <a href="https://www.drupar.com/theme/xarapro" target="_blank">Buy xaraPro for $29 only.</a>'),
+    '#description'   => t('This feature is available in the premium version of this theme. <a href="https://www.drupar.com/theme/xarapro" target="_blank">Buy XaraPro for $29 only.</a>'),
     '#group' => 'sidebar_tab',
   ];
   // Sidebar -> Sidebar Block
@@ -489,7 +489,7 @@ function xara_form_system_theme_settings_alter(&$form, &$form_state) {
   $form['sidebar']['sidebar_block']['sidebar_block_color'] = [
     '#type'          => 'details',
     '#title'         => t('Sidebar Block Background Color'),
-    '#description'   => t('Color option is available in the premium version of this theme. <a href="https://www.drupar.com/theme/xarapro" target="_blank">Buy xaraPro for $29 only.</a>'),
+    '#description'   => t('Color option is available in the premium version of this theme. <a href="https://www.drupar.com/theme/xarapro" target="_blank">Buy XaraPro for $29 only.</a>'),
     '#open' => TRUE,
   ];
   /*
@@ -502,7 +502,7 @@ function xara_form_system_theme_settings_alter(&$form, &$form_state) {
   $form['content']['shortcodes'] = [
     '#type'          => 'details',
     '#title'         => t('Shortcodes'),
-    '#description'   => t('<p>xara theme has many custom shortcodes which you can use for creating contents.</p><p>Please visit this page for list of all available shortcodes and how to use these shortcodes.</p><ul><li><a href="https://www.drupar.com/node/1485/" target="_blank">xara Shortcodes</a></li><li><a href="https://www.drupar.com/node/1211/" target="_blank">The-X Shortcodes</a></li></ul><p><hr /></p><h4>More Shortcodes</h4><p><a href="https://www.drupar.com/theme/xarapro">xaraPro</a> has more custom shortcodes like Tab, Accordion, icon box, card, Model etc.'),
+    '#description'   => t('<p>xara theme has many custom shortcodes which you can use for creating contents.</p><p>Please visit this page for list of all available shortcodes and how to use these shortcodes.</p><ul><li><a href="https://www.drupar.com/node/2017/" target="_blank">XARA Shortcodes</a></li><li><a href="https://www.drupar.com/node/1211/" target="_blank">The-X Shortcodes</a></li></ul><p><hr /></p><h4>More Shortcodes</h4><p><a href="https://www.drupar.com/theme/xarapro">XaraPro</a> has more custom shortcodes like Tab, Accordion, icon box, card, Model etc.'),
     '#group' => 'content_tab',
   ];
   // content -> RTL
@@ -528,7 +528,7 @@ function xara_form_system_theme_settings_alter(&$form, &$form_state) {
   $form['content']['animated_content']['animated_content_section'] = [
     '#type'        => 'fieldset',
     '#title'       => t('Animated Page Content - xaraPro Feature'),
-    '#description'   => t('<p>With animated page content shortcodes, you can create contents with animation effects. These contents will appear with some animation effect when it will come in browser view.</p><p>This feature is available in the premium version of this theme. <a href="https://www.drupar.com/theme/xarapro" target="_blank">Buy xaraPro for $29 only.</a></p>'),
+    '#description'   => t('<p>With animated page content shortcodes, you can create contents with animation effects. These contents will appear with some animation effect when it will come in browser view.</p><p>This feature is available in the premium version of this theme. <a href="https://www.drupar.com/theme/xarapro" target="_blank">Buy XaraPro for $29 only.</a></p>'),
   ];
 
   // Content-> Submitted Details
@@ -604,7 +604,7 @@ function xara_form_system_theme_settings_alter(&$form, &$form_state) {
   $form['footer']['copyright']['copyright_text_custom'] = [
     '#type'          => 'fieldset',
     '#title'         => t('Custom copyright text'),
-    '#description'   => t('This feature is available in the premium version of this theme. <a href="https://www.drupar.com/theme/xarapro" target="_blank">Buy xaraPro for $29 only.</a>'),
+    '#description'   => t('This feature is available in the premium version of this theme. <a href="https://www.drupar.com/theme/xarapro" target="_blank">Buy XaraPro for $29 only.</a>'),
   ];
   /**
    * Settings under comment tab.
@@ -636,7 +636,7 @@ function xara_form_system_theme_settings_alter(&$form, &$form_state) {
   $form['comment']['comment_author']['highlight_author_color'] = [
     '#type'          => 'details',
     '#title'         => t('Highlight Color'),
-    '#description'   => t('Color option is available in the premium version of this theme. <a href="https://www.drupar.com/theme/xarapro" target="_blank">Buy xaraPro for $29 only.</a>'),
+    '#description'   => t('Color option is available in the premium version of this theme. <a href="https://www.drupar.com/theme/xarapro" target="_blank">Buy XaraPro for $29 only.</a>'),
     '#open' => TRUE,
   ];
 
@@ -1192,7 +1192,7 @@ function xara_form_system_theme_settings_alter(&$form, &$form_state) {
   $form['elements']['main_menu']['main_menu_color'] = [
     '#type'          => 'details',
     '#title'         => t('Main Menu Color'),
-    '#description'   => t('Color option is available in the premium version of this theme. <a href="https://www.drupar.com/theme/xarapro" target="_blank">Buy xaraPro for $29 only.</a>'),
+    '#description'   => t('Color option is available in the premium version of this theme. <a href="https://www.drupar.com/theme/xarapro" target="_blank">Buy XaraPro for $29 only.</a>'),
     '#open' => TRUE,
   ];
   // Elements -> Page Title
@@ -1489,7 +1489,7 @@ function xara_form_system_theme_settings_alter(&$form, &$form_state) {
   $form['components']['node_share'] = [
     '#type'        => 'details',
     '#title'       => t('Share Page'),
-    '#description'   => t('<h3>Share Page On Social networking websites</h3><p>This feature is available in the premium version of this theme. <a href="https://www.drupar.com/theme/xarapro" target="_blank">Buy xaraPro for $29 only.</a></p>'),
+    '#description'   => t('<h3>Share Page On Social networking websites</h3><p>This feature is available in the premium version of this theme. <a href="https://www.drupar.com/theme/xarapro" target="_blank">Buy XaraPro for $29 only.</a></p>'),
     '#group' => 'components_tab',
   ];
   // Components -> Font icons
@@ -1537,14 +1537,14 @@ function xara_form_system_theme_settings_alter(&$form, &$form_state) {
   $form['components']['preloader'] = [
     '#type'        => 'details',
     '#title'       => t('Pre Page Loader'),
-    '#description'   => t('This feature is available in the premium version of this theme. <a href="https://www.drupar.com/theme/xarapro" target="_blank">Buy xaraPro for $29 only.</a>'),
+    '#description'   => t('This feature is available in the premium version of this theme. <a href="https://www.drupar.com/theme/xarapro" target="_blank">Buy XaraPro for $29 only.</a>'),
     '#group' => 'components_tab',
   ];
   // Components -> Cookie message.
   $form['components']['cookie'] = [
     '#type'        => 'details',
     '#title'       => t('Cookie Consent message'),
-    '#description'   => t('This feature is available in the premium version of this theme. <a href="https://www.drupar.com/theme/xarapro" target="_blank">Buy xaraPro for $29 only.</a>'),
+    '#description'   => t('This feature is available in the premium version of this theme. <a href="https://www.drupar.com/theme/xarapro" target="_blank">Buy XaraPro for $29 only.</a>'),
     '#group' => 'components_tab',
   ];
 
@@ -1644,7 +1644,7 @@ function xara_form_system_theme_settings_alter(&$form, &$form_state) {
   $form['color']['theme_color'] = [
     '#type'        => 'details',
     '#title'       => t('Theme Color'),
-    '#description'   => t('This feature is available in the premium version of this theme. <a href="https://www.drupar.com/theme/xarapro" target="_blank">Buy xaraPro for $29 only.</a>'),
+    '#description'   => t('This feature is available in the premium version of this theme. <a href="https://www.drupar.com/theme/xarapro" target="_blank">Buy XaraPro for $29 only.</a>'),
     '#open' => TRUE,
   ];
   /**
@@ -1657,7 +1657,7 @@ function xara_form_system_theme_settings_alter(&$form, &$form_state) {
   $form['insert_codes']['head'] = [
     '#type'        => 'details',
     '#title'       => t('Head'),
-    '#description' => t('<h3>Insert Codes Before &lt;/HEAD&gt;</h3><p><hr /></p>This feature is available in the premium version of this theme. <a href="https://www.drupar.com/theme/xarapro" target="_blank">Buy xaraPro for $29 only.</a>'),
+    '#description' => t('<h3>Insert Codes Before &lt;/HEAD&gt;</h3><p><hr /></p>This feature is available in the premium version of this theme. <a href="https://www.drupar.com/theme/xarapro" target="_blank">Buy XaraPro for $29 only.</a>'),
     '#group' => 'insert_codes_tab',
   ];
   // Insert Codes -> Body
@@ -1676,13 +1676,13 @@ function xara_form_system_theme_settings_alter(&$form, &$form_state) {
   $form['insert_codes']['body']['insert_body_start_section'] = [
     '#type'        => 'fieldset',
     '#title'       => t('Insert code after &lt;BODY&gt; tag'),
-    '#description'   => t('This feature is available in the premium version of this theme. <a href="https://www.drupar.com/theme/xarapro" target="_blank">Buy xaraPro for $29 only.</a>'),
+    '#description'   => t('This feature is available in the premium version of this theme. <a href="https://www.drupar.com/theme/xarapro" target="_blank">Buy XaraPro for $29 only.</a>'),
   ];
   // Insert Codes -> Body -> Body end codes
   $form['insert_codes']['body']['insert_body_end_section'] = [
     '#type'        => 'fieldset',
     '#title'       => t('Insert code before &lt;/BODY&gt; tag'),
-    '#description'   => t('This feature is available in the premium version of this theme. <a href="https://www.drupar.com/theme/xarapro" target="_blank">Buy xaraPro for $29 only.</a>'),
+    '#description'   => t('This feature is available in the premium version of this theme. <a href="https://www.drupar.com/theme/xarapro" target="_blank">Buy XaraPro for $29 only.</a>'),
   ];
   // Insert Codes -> css
   $form['insert_codes']['css']['css_section'] = [
@@ -1708,8 +1708,8 @@ function xara_form_system_theme_settings_alter(&$form, &$form_state) {
   $form['support']['info'] = [
     '#type'        => 'fieldset',
     '#title'       => t('Documentation'),
-    '#description' => t('<h4>xara Documentation</h4>
-    <p>Please check our documentation for detailed information on how to use xara theme.<br /><a href="https://www.drupar.com/doc/xara" target="_blank">xara Documentation</a>.</p>
+    '#description' => t('<h4>Xara Documentation</h4>
+    <p>Please check our documentation for detailed information on how to use xara theme.<br /><a href="https://www.drupar.com/doc/xara" target="_blank">Xara Documentation</a>.</p>
     <h4>The-X Documentation</h4>
     <p>xara theme uses The-X theme as the base theme. So, many things are covered in <a href="https://www.drupar.com/doc/thex" target="_blank">The X Documentation</a>.</p>
     <hr />
