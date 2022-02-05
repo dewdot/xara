@@ -1,0 +1,17 @@
+@media (min-width: 768px) {
+  html {
+    font-size: 18px;
+  }
+  /* Heading */
+  .menu-wrap .menu a {
+    color: var(--color-heading);
+  }
+  .menu .expanded:hover {
+    background-color: var(--primary);
+  }
+}
+@media (min-width: 992px) {
+  .menu-wrap {
+    background-color: transparent;
+  }
+}

@@ -1,0 +1,37 @@
+/* Variables
+---------------------------------------- */
+:root {
+  --body-bg: #ffffff;
+  --color-heading: #111111;
+
+  --light: #F4FCFA;
+  // --border: #E3F4F0;
+  --border: #CDEEE6;
+  --primary: #97C2B8;
+  --secondary: #F9AB51;
+
+  --font-text: 'Roboto', sans-serif;
+  --font-heading: 'Roboto', sans-serif;
+
+
+  --shadow: 0 0 10px 4px var(--border);
+}
+/* HTML and Body
+---------------------------------------- */
+body {
+  font-family: var(--font-text);
+  font-weight: 400;
+}
+
+/* Form
+---------------------------------------- */
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+nput[type="search"],
+textarea {
+  border: 1px solid var(--border);
+  outline: 0;
+  // box-shadow: 0 0 2px 1px var(--border);
+}

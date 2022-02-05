@@ -1,0 +1,21 @@
+.bg-light,
+.featured {
+  background-color: var(--light);
+}
+
+/* Button */
+.button {
+  border: 2px solid var(--primary);
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+.button:hover {
+  background-color: var(--border);
+  color: var(--color-heading);
+}
+
+/* Box */
+.box {
+  background-color: #ffffff;
+  box-shadow: var(--shadow);
+}
