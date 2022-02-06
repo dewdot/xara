@@ -15,20 +15,22 @@
 }
 /* components -> Servies */
 .services {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(265px, 1fr));
   width: 100%;
   margin: 0;
   padding: 0;
-  flex-wrap: wrap;
-  gap: 2rem;
+  grid-gap: 1rem;
+  gap: 1rem;
 }
 .service {
   position: relative;
   flex: 1 0 250px;
   background-color: #ffffff;
-  padding: 1rem;
+  padding: 2rem 1rem;
   border-radius: 6px;
   box-shadow: var(--shadow);
+  text-align: center;
   z-index: 0;
 }
 .service::before {
@@ -46,6 +48,13 @@
 }
 .service:hover::before {
   transform: scaleX(1);  
+}
+.service-icon {
+  margin-bottom: 1rem;
+  transition: transform 0.3s linear;
+}
+.service:hover .service-icon {
+  transform: translateY(-1rem);
 }
 
 /* Pricing Table */

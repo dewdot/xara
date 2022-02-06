@@ -30,6 +30,10 @@
 .search-box-content .block-title::after {
   content: none;
 }
+.search-box-content input[type="search"],
+.search-box-content input[type="search"]:focus {
+  box-shadow: none;
+}
 .mobile-menu span {
   background-color: var(--primary);
 }
