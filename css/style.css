@@ -10,6 +10,7 @@
   --font-text: 'Roboto', sans-serif;
   --font-heading: 'Roboto', sans-serif;
   --shadow: 0 0 10px 4px var(--border);
+  --shadow2: 0 0 4px 2px var(--border);
 }
 
 /* HTML and Body
@@ -269,10 +270,112 @@ textarea:focus {
   text-align: center;
 }
 
+/* Submitted Details */
+.node-submitted-details i {
+  color: var(--primary);
+}
+
+.node-header .image-field {
+  margin: 0;
+}
+
+.node-author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.author-picture {
+  margin-right: 10px;
+}
+
+.taxonomy-term a {
+  border-radius: 6px;
+  background-color: var(--light);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.taxonomy-term a:hover {
+  color: var(--color-text);
+  background-color: var(--border);
+  border: 2px solid var(--primary);
+}
+
 .sidebar .block {
   background-color: var(--light);
-  -webkit-box-shadow: 0 0 4px 2px var(--border);
-          box-shadow: 0 0 4px 2px var(--border);
+  -webkit-box-shadow: var(--shadow2);
+          box-shadow: var(--shadow2);
+}
+
+/* Comments
+--------------------------------------*/
+#comments {
+  border-top: 1px solid var(--border);
+}
+
+#comments i {
+  color: var(--primary);
+}
+
+.comments-title::before,
+.comment-form-wrap .add-comment-title::before {
+  font-family: 'xara';
+  color: var(--primary);
+  padding-right: 6px;
+}
+
+.comments-title::before {
+  content: "\f0e6";
+}
+
+.comment-form-wrap .add-comment-title::before {
+  content: "\e900";
+}
+
+/* Comments -> single comment */
+.comment {
+  -webkit-box-shadow: var(--shadow2);
+          box-shadow: var(--shadow2);
+}
+
+.comment-header {
+  background-color: var(--border);
+  border: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.comment-user-picture {
+  -ms-flex: 0 0 100px;
+  -webkit-box-flex: 0;
+          flex: 0 0 100px;
+}
+
+.comment-title,
+.comment-title a {
+  color: var(--color-heading);
+}
+
+.comment-reply a,
+.comment-delete a,
+.comment-edit a {
+  padding: 4px 12px;
+  background: #ffffff;
+  border-radius: 4px;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.comment-reply a:hover,
+.comment-delete a:hover,
+.comment-edit a:hover {
+  background: var(--primary);
+  color: #ffffff;
 }
 
 .site-footer {
@@ -313,28 +416,6 @@ textarea:focus {
 
 .footer a:hover {
   color: var(--primary);
-}
-
-/* Submitted Details */
-.node-submitted-details i {
-  color: var(--primary);
-}
-
-.node-header .image-field {
-  margin: 0;
-}
-
-.node-author {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.author-picture {
-  margin-right: 10px;
 }
 
 .region-content-home-top .block:nth-child(even) {
