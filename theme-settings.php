@@ -1348,10 +1348,10 @@ function xara_form_system_theme_settings_alter(&$form, &$form_state) {
     '#type'        => 'fieldset',
     '#title'       => t('Show Social Icons'),
   ];
-  $form['components']['social']['all_icons']['all_icons_show'] = [
+  $form['components']['social']['all_icons']['social_icons_show'] = [
     '#type'          => 'checkbox',
     '#title'         => t('Show social icons in footer'),
-    '#default_value' => theme_get_setting('all_icons_show'),
+    '#default_value' => theme_get_setting('social_icons_show'),
     '#description'   => t("Check this option to show social icons in footer. Uncheck to hide."),
   ];
   $form['components']['social']['social_profile'] = [

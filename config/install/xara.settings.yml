@@ -42,7 +42,7 @@ node_author_pic: 0
 node_tags: 0
 
 # Social
-all_icons_show: 1
+social_icons_show: 1
 facebook_url: 'https://www.facebook.com/idewdot'
 twitter_url: 'https://twitter.com/dewdots'
 instagram_url: 'https://www.instagram.com/google'

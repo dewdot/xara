@@ -86,7 +86,7 @@ function xara_preprocess_page(array &$variables) {
 	$variables['rtl'] = theme_get_setting('rtl');
 
 	// Social
-	$variables['all_icons_show'] = theme_get_setting('all_icons_show');
+	$variables['social_icons_show'] = theme_get_setting('social_icons_show');
 	$variables['facebook_url'] = santise_val_url(theme_get_setting('facebook_url'));
 	$variables['twitter_url'] = santise_val_url(theme_get_setting('twitter_url'));
 	$variables['instagram_url'] = santise_val_url(theme_get_setting('instagram_url'));

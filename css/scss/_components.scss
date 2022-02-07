@@ -1,3 +1,39 @@
+/* Feed text */
+.feed-icon {
+  display: block;
+  font-size: 0;
+  width: 32px;
+  height: 32px;
+  background: url(../images/icons/rss.svg) no-repeat;
+}
+/* Components -> Social icons */
+.social-icons {
+  position: relative;
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+}
+.social-icons li {
+  padding: 0;
+}
+.social-icons li a {
+  color: var(--primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+  border: 2px solid var(--primary);
+  border-radius: 6px;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.social-icons li a:hover {
+  background-color: var(--light);
+}
 .region-content-home-top .block:nth-child(even) {
   background-color: var(--light);
 }
