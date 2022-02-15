@@ -3,7 +3,7 @@ type: theme
 base theme: thex
 description: 'Premium multi-purpose Drupal 8 and 9 Theme by <a href="https://www.drupar.com/" target="_blank">Drupar.com</a>'
 package: Drupar
-version: 1.0.0
+version: 1.0.1
 core_version_requirement: ^8 || ^9
 libraries:
   - xara/global-styling

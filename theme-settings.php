@@ -11,7 +11,7 @@ function xara_form_system_theme_settings_alter(&$form, &$form_state) {
 	$form['#attached']['library'][] = 'xara/theme-settings';
   $form['xara'] = [
     '#type'       => 'vertical_tabs',
-    '#title'      => '<h3 class="settings-form-title">' . t('Settings') . '</h3>',
+    '#title'      => '<h3 class="settings-form-title">' . t('') . '</h3>',
     '#default_tab' => 'general',
   ];
   /**
@@ -665,7 +665,7 @@ function xara_form_system_theme_settings_alter(&$form, &$form_state) {
     '#step' => 0.1,
     '#title'  => t('Font Size (rem)'),
     '#default_value' => theme_get_setting('body_font_size'),
-    '#description'   => t("Default size is 1rem which is equivalent to 16px."),
+    '#description'   => t("Default size is 1rem"),
   ];
   $form['typography']['body']['body_line_height_section'] = [
     '#type'        => 'details',
@@ -1531,7 +1531,7 @@ function xara_form_system_theme_settings_alter(&$form, &$form_state) {
   $form['components']['font_icons']['materialicons'] = [
     '#type'          => 'fieldset',
     '#title'         => t('Google Material Font Icons'),
-    '#description'   => t('This feature is available in the premium version of this theme. <a href="https://www.drupar.com/theme/xarapro" target="_blank">Purchase xaraPro for $29 only.</a>'),
+    '#description'   => t('This feature is available in the premium version of this theme. <a href="https://www.drupar.com/theme/xarapro" target="_blank">Purchase XaraPro for $29 only.</a>'),
   ];
   // Components -> Page loader.
   $form['components']['preloader'] = [
@@ -1723,7 +1723,7 @@ function xara_form_system_theme_settings_alter(&$form, &$form_state) {
   // Settings under upgrade tab.
   $form['upgrade']['info'] = [
     '#type'        => 'fieldset',
-    '#title'       => t('<p><a href="https://demo2.drupar.com/xarapro/" target="_blank">xaraPro Demo</a> | <a href="https://www.drupar.com/theme/xarapro" target="_blank">Purchase xaraPro for $29 only</a></p>'),
+    '#title'       => t('<p><a href="https://demo2.drupar.com/xarapro/" target="_blank">xaraPro Demo</a> | <a href="https://www.drupar.com/theme/xarapro" target="_blank">Purchase XaraPro for $29 only</a></p>'),
     '#description' => t("$xarapro"),
   ];
 // End form.

@@ -13,10 +13,9 @@ FontAwesome font icons
 https://fontawesome.com
 
 
-Google Material Font Icons
+Bootstrap Icons
 +---------------------------+
-https://fonts.google.com/icons?selected=Material+Icons
-
+https://icons.getbootstrap.com/
 
 Icofonts - Font icons
 +---------------------------+
